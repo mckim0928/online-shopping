@@ -5,7 +5,7 @@ import FluxCartConstants from '../constants/FluxCartConstants';
 var _products = {};
 
 function add (sku, update) {
-  update.quantity = sku in _products ? _products[sku] + 1 : 1;
+  update.quantity = sku in _products ? _products[sku].quantity + 1 : 1;
   _products[sku] = Object.assign({}, _products[sku], update);
 }
 
