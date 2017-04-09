@@ -1,8 +1,8 @@
 import React from 'react';
-import CartStore from '../stores/CartStore';
-import ProductStore from '../stores/ProductStore';
-import FluxProduct from './FluxProduct';
-import FluxCart from './FluxCart';
+import CartStore from '../../stores/CartStore';
+import ProductStore from '../../stores/ProductStore';
+import FluxProduct from '../FluxProduct';
+import FluxCart from '../FluxCart';
 
 function getCartState() {
   return {

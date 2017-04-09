@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+
+import Routes from './routes';
 import './index.css';
 import ProductData from './ProductData';
 import CartAPI from './utils/CartAPI';
@@ -14,6 +15,6 @@ function main() {
 main();
 
 ReactDOM.render(
-  <App />,
+  <Routes/>,
   document.getElementById('root')
 );

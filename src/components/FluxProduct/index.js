@@ -1,5 +1,5 @@
 import React from 'react';
-import FluxCartActions from '../actions/FluxCartActions';
+import FluxCartActions from '../../actions/FluxCartActions';
 
 export default class FluxProduct extends React.Component {
 
