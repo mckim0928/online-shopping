@@ -13,7 +13,8 @@ export default class FluxProduct extends React.Component {
     var update = {
       name: this.props.product.name,
       type: this.props.selected.type,
-      price: this.props.selected.price
+      price: this.props.selected.price,
+      image: this.props.product.image
     };
     FluxCartActions.addToCart(sku, update);
   }
@@ -51,6 +52,3 @@ export default class FluxProduct extends React.Component {
     );
   }
 }
-
-
-

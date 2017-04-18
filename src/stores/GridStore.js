@@ -23,6 +23,42 @@ class GridStore extends EventEmitter {
     return _selected;
   }
 
+  emitChange() {
+    this.emit('change');
+  }
 
+  addChangeListener(callback) {
+    this.on('change', callback);
+  }
+
+  removeChangeListener(callback) {
+    this.removeListener('change', callback);
+  }
 
 }
+
+let gridStoreInstance = new GridStore();
+
+AppDispatcher.register(function(payload) {
+  var action = payload.action;
+
+  switch(action.actionType) {
+    case FluxCartConstants.RECEIVE_DATA:
+      loadProductData(action.data);
+      break;
+
+    case FluxCartConstants.SELECT_PRODUCT:
+      setSelected(action.data);
+      break;
+
+    default:
+      return true;
+  }
+
+  gridStoreInstance.emitChange();
+  
+  return true;
+
+});
+
+export default gridStoreInstance;
