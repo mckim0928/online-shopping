@@ -1,3 +1,11 @@
-grid-button {
-  width: 5em;
+.flux-grid {
+  display: flex;
+  align-content: center;
+}
+
+.grid-button {
+  width: 10em;
+}
+
+.grid-column {
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import FluxCartActions from '../../actions/FluxCartActions';
 import { Col } from 'react-bootstrap';
+import './FluxGrid.css'
 
 export default class FluxGrid extends React.Component {
 
@@ -36,7 +37,7 @@ export default class FluxGrid extends React.Component {
         {
           products.map((item,index) => {
             return(
-              <Col md={2} key={index}>
+              <Col className="grid-column" md={2} key={index}>
                 <span>
                   <img src={item.image} alt="to be replaced" height="42" width="42"/>
                 </span>
