@@ -34,12 +34,12 @@ module.exports = {
       },
       {
         id: '0011002',
-        name: 'Snapea Crisps',
+        name: 'Chicken Nuggets',
         image: '../images/snapea.jpg',
         description: 'A healthy snack',
         variants: [
           {
-            sku: '123123',
+            sku: '1231278',
             type: 'Single Serving',
             price: 4.99,
             nuVal:15,

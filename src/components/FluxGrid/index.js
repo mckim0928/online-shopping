@@ -9,8 +9,8 @@ export default class FluxGrid extends React.Component {
     this.addToCart = this.addToCart.bind(this);
   }
 
-  addToCart() {
-    var item = this.props.selected;
+  addToCart(index) {
+    var item = this.props.products[index];
     var current = item.variants[0];
     var sku = current.sku;
 
@@ -44,7 +44,7 @@ export default class FluxGrid extends React.Component {
                 <p className="description">{item.description}</p>
                 <p className="price">Price: ${item.variants[0].price}</p>
                 <p className="price">NuVal: {item.variants[0].nuVal}</p>
-                <button type="button" onClick={this.addToCart}>
+                <button className="grid-button" type="button" onClick={() => {this.addToCart(index)}}>
                   Add to Cart
                 </button>
               </Col>
