@@ -5,6 +5,7 @@ import GridStore from '../../stores/GridStore';
 import FluxProduct from '../FluxProduct';
 import FluxCart from '../FluxCart';
 import FluxGrid from '../FluxGrid';
+import './FluxCartApp.css'
 
 function getCartState() {
   return {

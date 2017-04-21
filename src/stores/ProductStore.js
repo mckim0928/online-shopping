@@ -1,10 +1,19 @@
 import AppDispatcher from '../dispatcher/AppDispatcher';
 import { EventEmitter } from 'events';
 import FluxCartConstants from '../constants/FluxCartConstants';
+import $ from 'jquery'
 
 var _product = {}, _selected = null;
 
 function loadProductData(data) {
+  $.getJSON("https://spreadsheets.google.com/feeds/list/1vv4lmE0JZztBobVsbbKkiBo8MjyaSORXnqR9zKnXteU/od6/public/values?alt=json",
+    function(data){
+      // _product = data.feed.entry[0];
+      const str = data.feed.entry[0].content['$t'];
+      console.log(str);
+  //console.log(data.feed.entry[0]['gsx$title']['$t']);
+})
+
   _product = data[0];
   _selected = data[0].variants[0];
 }
