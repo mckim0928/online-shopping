@@ -7,5 +7,18 @@
   width: 10em;
 }
 
-.grid-column {
+.grid-box {
+  border: 2px solid black;
+  padding: 5px;
+}
+
+.image-span {
+  width: 100%;
+  align-content: center;
+}
+
+.item-image {
+  width: 50px;
+  height: 50px;
+  margin: auto;
 }

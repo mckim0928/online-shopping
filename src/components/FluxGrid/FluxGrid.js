@@ -37,9 +37,9 @@ export default class FluxGrid extends React.Component {
         {
           products.map((item,index) => {
             return(
-              <Col className="grid-column" md={2} key={index}>
-                <span>
-                  <img src={item.image} alt="to be replaced" height="42" width="42"/>
+              <Col className="grid-box" md={2} key={index}>
+                <span className="image-span">
+                  <img className="item-image" src={item.image} alt="to be replaced" height="42" width="42"/>
                 </span>
                 <h1 className="name">{item.name}</h1>
                 <p className="description">{item.description}</p>
