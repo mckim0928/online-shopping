@@ -4,6 +4,25 @@
 }
 
 .grid-button {
+  width: 100%;
+  text-size-adjust: 100%;
+  
+}
+
+.grid-item {
+
+  border-style: solid;
+  border-color: black;
+  border-width: 4px;
+
+  margin-bottom: 25px;
+  margin-top: 25px;
+
+  text-align: center;
+  min-height: 250px;
+}
+
+.grid-button {
   width: 10em;
 }
 
