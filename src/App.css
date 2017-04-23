@@ -2,6 +2,19 @@ html, body {
     height: 100%;
 }
 
+.header {
+    height: 65px;
+    text-align: "center";
+    background-color: #319F52;
+    vertical-align: "middle";
+}
+
+.header h1{
+    float:"left";
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
 body
 {
     font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
@@ -11,7 +24,7 @@ body
     padding: 0;
 
     color: #2c3e50;
-    background: #e67e22;
+    background: 'white';
 }
 
 body *

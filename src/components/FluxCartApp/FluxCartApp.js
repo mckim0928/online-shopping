@@ -49,10 +49,6 @@ export default class FluxCartApp extends React.Component {
           products={cartItems}
           count={cartCount}
           total={cartTotal} />
-        <FluxProduct
-          product={product}
-          cartItems={cartItems}
-          selected={selectedProduct} />
         <FluxGrid
           products={products}
           cartItems={cartItems}
