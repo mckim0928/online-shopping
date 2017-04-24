@@ -48,6 +48,9 @@ section#flux-cart
     position: fixed;
     /*float: right;
     clear: both;*/
+    a {
+        text-decoration: none;
+    }
 }
 
 .flux-product
@@ -141,7 +144,7 @@ button[disabled]
     top: 20px;
     width: 100%;
     max-width: 280px;
-    right: -200px;
+    right: -300px;
     -webkit-transition: .25s right ease;
        -moz-transition: .25s right ease;
         -ms-transition: .25s right ease;

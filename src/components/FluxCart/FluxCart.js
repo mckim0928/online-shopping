@@ -1,5 +1,6 @@
 import React from 'react';
 import FluxCartActions from '../../actions/FluxCartActions';
+import './FluxCart.css';
 
 export default class FluxCart extends React.Component {
 
@@ -28,6 +29,9 @@ export default class FluxCart extends React.Component {
             }
           </ul>
           <span className="total">Total: ${total}</span>
+          <a href="https://duke.qualtrics.com/SE/?SID=SV_beaRAUN2H1fRKAJ">
+            <button>Check Out</button>
+          </a>
         </div>
       </div>
     );

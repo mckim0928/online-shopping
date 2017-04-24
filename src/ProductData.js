@@ -10,21 +10,21 @@ module.exports = {
         description: 'A healthy snack',
         variants: [
           {
-            sku: '123123',
+            sku: '1',
             type: 'Single Serving',
             nuVal:70,
             price: 4.99,
             inventory: 10
           },
           {
-            sku: '123124',
+            sku: '2',
             type: 'Family Pack',
             nuVal:45,
             price: 12.99,
             inventory: 5
           },
           {
-            sku: '1231235',
+            sku: '3',
             type: '30 Pack',
             nuVal:15,
             price: 19.99,
@@ -39,7 +39,7 @@ module.exports = {
         description: 'A healthy snack',
         variants: [
           {
-            sku: '1231278',
+            sku: '4',
             type: 'Single Serving',
             price: 7.99,
             nuVal:15,
@@ -47,14 +47,14 @@ module.exports = {
 
           },
           {
-            sku: '123124',
+            sku: '5',
             type: 'Family Pack',
             price: 12.99,
             nuVal:15,
             inventory: 5
           },
           {
-            sku: '1231235',
+            sku: '6',
             type: '30 Pack',
             nuVal:15,
             price: 19.99,
@@ -69,21 +69,21 @@ module.exports = {
         description: 'A healthy snack',
         variants: [
           {
-            sku: '123126',
+            sku: '7',
             type: 'Single Serving',
             nuVal:70,
             price: 16.99,
             inventory: 10
           },
           {
-            sku: '123124',
+            sku: '8',
             type: 'Family Pack',
             nuVal:45,
             price: 12.99,
             inventory: 5
           },
           {
-            sku: '1231235',
+            sku: '9',
             type: '30 Pack',
             nuVal:15,
             price: 19.99,
@@ -98,7 +98,7 @@ module.exports = {
     description: "Made with 100% natural* chicken breast with rib meat.",
     variants: [
       {
-      sku: '1231237',
+      sku: '10',
       type: '240 ml',
       nuVal: 1,
       price: 1.69,
@@ -125,7 +125,7 @@ module.exports = {
           description: "Coca-Cola is the most popular and biggest-selling soft drink in history, as well as the best-known product in the world.",
           variants: [
             {
-            sku: '1231237',
+            sku: '11',
             type: '240 ml',
             nuVal: 1,
             price: 1.69,
@@ -151,7 +151,7 @@ module.exports = {
     description: "In 1984, on 21/2-acres in California's verdant Carmel Valley, Drew & Myra Goodman started Earthbound Farm. Rooted on that tiny farm, our commitment to organic has grown stronger every year. Thank you for choosing organic!",
     variants: [
       {
-      sku: '1231237',
+      sku: '12',
       type: '240 ml',
       nuVal: 1,
       price: 1.69,
@@ -177,7 +177,7 @@ module.exports = {
           description: "Carry love in your heart and Oreo cookies everywhere else.",
           variants: [
             {
-            sku: '1231237',
+            sku: '13',
             type: '240 ml',
             nuVal: 1,
             price: 1.69,
@@ -204,7 +204,7 @@ module.exports = {
           image: "src/components/grid/images/bread_white.jpeg",
           variants: [
             {
-            sku: '1231237',
+            sku: '14',
             type: '240 ml',
             nuVal: 1,
             price: 1.69,
@@ -232,7 +232,7 @@ module.exports = {
           image: "src/components/grid/images/apple.jpeg",
           variants: [
             {
-            sku: '1231237',
+            sku: '15',
             type: '240 ml',
             nuVal: 1,
             price: 1.69,
