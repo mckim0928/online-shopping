@@ -172,7 +172,7 @@ module.exports = {
           image: "https://0bb8856ba8259ec33e3d-a40599a114f3a4c6d0979c3ffe0b2bf5.ssl.cf2.rackcdn.com/0073948010150_CL_hyvee_default_large.png",
           variants: [
             {
-            sku: '1231237',
+            sku: '16',
             type: '240 ml',
             nuVal: 1,
             price: 1.69,
@@ -199,7 +199,7 @@ module.exports = {
           description: "Goldfish CrackersEveryone loves Goldfish crackers – they're tasty and fun! With a large 30 oz carton you can always come back for more, or have enough to feed a crowd. The Snack that Smiles BackWhen it comes to Goldfish crackers, you can feel good about serving your favorite snacks. All of our cheese varieties, like cheddar, are baked with real cheese, and Goldfish crackers are made with no artificial preservatives. or flavors.",
           variants: [
             {
-            sku: '1231237',
+            sku: '17',
             type: '240 ml',
             nuVal: 1,
             price: 1.69,
@@ -226,7 +226,7 @@ module.exports = {
         description: "Bakery Fresh Cookies",
         variants: [
           {
-          sku: '1231237',
+          sku: '18',
           type: '12 ct',
           nuVal: 1,
           price: 3.99,
@@ -242,7 +242,7 @@ module.exports = {
         description: "Hy-Vee Pure Granulated Cane Sugar	Pure cane sugar",
         variants: [
           {
-          sku: '1231237',
+          sku: '19',
           type: '4 lb',
           nuVal: 1,
           price: 1.89,
@@ -258,7 +258,7 @@ module.exports = {
         description: "Bring out the real, natural flavor of your foods.The fresh sweet cream in Land'O Lakes Unsalted Butter comes from the farm families of Land'O'Lakes.Only Land O'Lakes butter has the FlavorProtect Wrapper to keep other flavors out and the fresh taste you love in.",
         variants: [
           {
-          sku: '1231237',
+          sku: '20',
           type: '4 lb',
           nuVal: 1,
           price: 2.5,

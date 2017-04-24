@@ -53,9 +53,14 @@ section#flux-cart
     position: fixed;
     /*float: right;
     clear: both;*/
-    a {
-        text-decoration: none;
-    }
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover, a:active {
+  color: black;
 }
 
 .flux-product
