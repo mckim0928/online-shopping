@@ -218,6 +218,54 @@ module.exports = {
           // "servingsize": "30 g",
           // "servingsperpackage": 28,
           // "item": "Goldfish"
+      },
+      {
+        id:'260803000000',
+        name:"Cookies	Chocolate Chip Cookies with Ghirardelli Chocolate Chip",
+        image: "https://0bb8856ba8259ec33e3d-a40599a114f3a4c6d0979c3ffe0b2bf5.ssl.cf2.rackcdn.com/0260803000000_CL_hyvee1_default_large.jpeg",
+        description: "Bakery Fresh Cookies",
+        variants: [
+          {
+          sku: '1231237',
+          type: '12 ct',
+          nuVal: 1,
+          price: 3.99,
+          inventory: 15
+          }
+        ],
+        "maincategory": "Bakery"
+      },
+      {
+        id:'75450055100',
+        name:"Hy-Vee Pure Granulated Cane Sugar",
+        image: "https://e22d0640933e3c7f8c86-34aee0c49088be50e3ac6555f6c963fb.ssl.cf2.rackcdn.com/0075450055100_CL_version_type_large.jpeg",
+        description: "Hy-Vee Pure Granulated Cane Sugar	Pure cane sugar",
+        variants: [
+          {
+          sku: '1231237',
+          type: '4 lb',
+          nuVal: 1,
+          price: 1.89,
+          inventory: 15
+          }
+        ],
+        "maincategory": "Pantry"
+      },
+      {
+        id:'34500151500',
+        name:"Butter",
+        image: "https://e22d0640933e3c7f8c86-34aee0c49088be50e3ac6555f6c963fb.ssl.cf2.rackcdn.com/0075450055100_CL_version_type_large.jpeg",
+        description: "Bring out the real, natural flavor of your foods.The fresh sweet cream in Land'O Lakes Unsalted Butter comes from the farm families of Land'O'Lakes.Only Land O'Lakes butter has the FlavorProtect Wrapper to keep other flavors out and the fresh taste you love in.",
+        variants: [
+          {
+          sku: '1231237',
+          type: '4 lb',
+          nuVal: 1,
+          price: 2.5,
+          inventory: 15
+          }
+        ],
+        "maincategory": "Fresh"
       }
     ]));
   }
