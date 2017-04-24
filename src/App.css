@@ -1,5 +1,6 @@
 html, body {
     height: 100%;
+    width: 100%;
 }
 
 .header {
@@ -49,7 +50,12 @@ section#flux-cart
     overflow-y: visible;
     margin: auto;
     padding: 20px;
-    position: relative;
+    position: fixed;
+    /*float: right;
+    clear: both;*/
+    a {
+        text-decoration: none;
+    }
 }
 
 .flux-product
@@ -139,13 +145,11 @@ button[disabled]
 .mini-cart
 {
     position: absolute;
-    z-index: 999;
+    /*z-index: 999;*/
     top: 20px;
-    right: -500px;
-
     width: 100%;
     max-width: 280px;
-
+    right: -300px;
     -webkit-transition: .25s right ease;
        -moz-transition: .25s right ease;
         -ms-transition: .25s right ease;
@@ -154,11 +158,6 @@ button[disabled]
 
     background: white;
     box-shadow: 0 0 5px rgba(0,0,0,.5);
-}
-
-.active .mini-cart
-{
-    right: 20px;
 }
 
 .mini-cart h1

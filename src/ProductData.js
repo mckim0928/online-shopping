@@ -4,18 +4,18 @@ module.exports = {
     localStorage.clear();
     localStorage.setItem('products', JSON.stringify([
       {
-      id: '31000120200',
-      name: "Banquet Chicken Breast Tenders",
-      image: 'https://e22d0640933e3c7f8c86-34aee0c49088be50e3ac6555f6c963fb.ssl.cf2.rackcdn.com/0031000120200_CL_version_type_large.jpeg',
-      description: "Made with 100% natural* chicken breast with rib meat.",
-      variants: [
-        {
-        sku: '1231237',
-        type: '240 ml',
-        nuVal: 1,
-        price: 1.69,
-        inventory: 15
-        }
+    id: '31000120200',
+    name: "Banquet Chicken Breast Tenders",
+    image: "https://e22d0640933e3c7f8c86-34aee0c49088be50e3ac6555f6c963fb.ssl.cf2.rackcdn.com/0031000120200_CL_version_type_large.jpeg",
+    description: "Made with 100% natural* chicken breast with rib meat.",
+    variants: [
+      {
+      sku: '10',
+      type: '240 ml',
+      nuVal: 1,
+      price: 1.69,
+      inventory: 15
+      }
     ]
     // "maincategory": "Frozen",
     // "brand": "Banquet",
@@ -37,7 +37,7 @@ module.exports = {
           description: "Coca-Cola is the most popular and biggest-selling soft drink in history, as well as the best-known product in the world.",
           variants: [
             {
-            sku: '1231237',
+            sku: '11',
             type: '240 ml',
             nuVal: 1,
             price: 1.69,
@@ -63,7 +63,7 @@ module.exports = {
     description: "In 1984, on 21/2-acres in California's verdant Carmel Valley, Drew & Myra Goodman started Earthbound Farm. Rooted on that tiny farm, our commitment to organic has grown stronger every year. Thank you for choosing organic!",
     variants: [
       {
-      sku: '1231237',
+      sku: '12',
       type: '240 ml',
       nuVal: 1,
       price: 1.69,
@@ -89,7 +89,7 @@ module.exports = {
           description: "Carry love in your heart and Oreo cookies everywhere else.",
           variants: [
             {
-            sku: '1231237',
+            sku: '13',
             type: '240 ml',
             nuVal: 1,
             price: 1.69,
@@ -116,7 +116,7 @@ module.exports = {
           image: "https://1372d34c156f12457517-c8b49206fc42ea00d5fd50b8ec61d670.ssl.cf2.rackcdn.com/0072945601330_A1L1_ItemMaster_type_large.jpeg",
           variants: [
             {
-            sku: '1231237',
+            sku: '14',
             type: '240 ml',
             nuVal: 1,
             price: 1.69,
@@ -144,7 +144,7 @@ module.exports = {
           image: "https://0bb8856ba8259ec33e3d-a40599a114f3a4c6d0979c3ffe0b2bf5.ssl.cf2.rackcdn.com/0000000041330_CL_hyvee_default_large.jpeg",
           variants: [
             {
-            sku: '1231237',
+            sku: '15',
             type: '240 ml',
             nuVal: 1,
             price: 1.69,
