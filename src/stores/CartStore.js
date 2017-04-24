@@ -33,6 +33,16 @@ class CartStore extends EventEmitter {
     return total.toFixed(2);
   }
 
+  getNuvalTotal() {
+    var total = 0;
+    for(var product in _products){
+      if(_products.hasOwnProperty(product)){
+        total += _products[product].nuVal * _products[product].quantity;
+      }
+    }
+    return total;
+  }
+
   emitChange() {
     this.emit('change');
   }

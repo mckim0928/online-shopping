@@ -16,6 +16,7 @@ function getCartState() {
     cartItems: CartStore.getCartItems(),
     cartCount: CartStore.getCartCount(),
     cartTotal: CartStore.getCartTotal(),
+    nuvalTotal: CartStore.getNuvalTotal(),
   };
 }
 
@@ -43,13 +44,14 @@ export default class FluxCartApp extends React.Component {
   }
 
   render() {
-    const {cartItems, cartCount, cartTotal, product, selectedProduct, products, selectedGrid} = this.state;
+    const {cartItems, cartCount, cartTotal, product, selectedProduct, products, selectedGrid, nuvalTotal} = this.state;
     return (
       <div className="flux-cart-app">
         <FluxCart
           products={cartItems}
           count={cartCount}
-          total={cartTotal} />
+          total={cartTotal}
+          nuvalTotal={nuvalTotal}/>
         <FluxGrid
           products={products}
           cartItems={cartItems}

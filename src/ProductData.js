@@ -3,98 +3,11 @@ module.exports = {
   init: function() {
     localStorage.clear();
     localStorage.setItem('products', JSON.stringify([
-      {
-        id: '0011001',
-        name: 'Snapea Crisps',
-        image: 'https://fa74d61d848a20b729bb-0251b36b713060ab3e0e8321940e01ff.ssl.cf2.rackcdn.com/0049000050100_CF_version_type_large.jpeg',
-        description: 'A healthy snack',
-        variants: [
-          {
-            sku: '1',
-            type: 'Single Serving',
-            nuVal:70,
-            price: 4.99,
-            inventory: 10
-          },
-          {
-            sku: '2',
-            type: 'Family Pack',
-            nuVal:45,
-            price: 12.99,
-            inventory: 5
-          },
-          {
-            sku: '3',
-            type: '30 Pack',
-            nuVal:15,
-            price: 19.99,
-            inventory: 3
-          }
-        ]
-      },
-      {
-        id: '0011002',
-        name: 'Chicken Nuggets',
-        image: '../images/snapea.jpg',
-        description: 'A healthy snack',
-        variants: [
-          {
-            sku: '4',
-            type: 'Single Serving',
-            price: 7.99,
-            nuVal:15,
-            inventory: 10
 
-          },
-          {
-            sku: '5',
-            type: 'Family Pack',
-            price: 12.99,
-            nuVal:15,
-            inventory: 5
-          },
-          {
-            sku: '6',
-            type: '30 Pack',
-            nuVal:15,
-            price: 19.99,
-            inventory: 3
-          }
-        ]
-      },
-      {
-        id: '0011001',
-        name: 'Third Item',
-        image: 'https://fa74d61d848a20b729bb-0251b36b713060ab3e0e8321940e01ff.ssl.cf2.rackcdn.com/0049000050100_CF_version_type_large.jpeg',
-        description: 'A healthy snack',
-        variants: [
-          {
-            sku: '7',
-            type: 'Single Serving',
-            nuVal:70,
-            price: 16.99,
-            inventory: 10
-          },
-          {
-            sku: '8',
-            type: 'Family Pack',
-            nuVal:45,
-            price: 12.99,
-            inventory: 5
-          },
-          {
-            sku: '9',
-            type: '30 Pack',
-            nuVal:15,
-            price: 19.99,
-            inventory: 3
-          }
-        ]
-      },
       {
     id: '31000120200',
     name: "Banquet Chicken Breast Tenders",
-    image: "./src/components/grid/images/chicken_tenders.jpeg",
+    image: "https://e22d0640933e3c7f8c86-34aee0c49088be50e3ac6555f6c963fb.ssl.cf2.rackcdn.com/0031000120200_CL_version_type_large.jpeg",
     description: "Made with 100% natural* chicken breast with rib meat.",
     variants: [
       {
@@ -121,7 +34,7 @@ module.exports = {
   {
           id: '49000050100',
           name: 'Coca-Cola',
-          image: './src/components/grid/images/coke.jpeg',
+          image: 'https://fa74d61d848a20b729bb-0251b36b713060ab3e0e8321940e01ff.ssl.cf2.rackcdn.com/0049000050100_CF_version_type_large.jpeg',
           description: "Coca-Cola is the most popular and biggest-selling soft drink in history, as well as the best-known product in the world.",
           variants: [
             {
@@ -147,7 +60,7 @@ module.exports = {
     "item": "Spinach",
     id: '32601900950',
     name: "Earthbound Farm Organic Baby Spinach Blend",
-    image: "src/components/grid/images/salad_mix.jpeg",
+    image: "https://fa74d61d848a20b729bb-0251b36b713060ab3e0e8321940e01ff.ssl.cf2.rackcdn.com/0032601900950_CF_version_type_large.jpeg",
     description: "In 1984, on 21/2-acres in California's verdant Carmel Valley, Drew & Myra Goodman started Earthbound Farm. Rooted on that tiny farm, our commitment to organic has grown stronger every year. Thank you for choosing organic!",
     variants: [
       {
@@ -173,7 +86,7 @@ module.exports = {
 
           id: '44000032020',
           name: "Nabisco Oreo Chocolate Sandwich Cookies",
-          image: "src/components/grid/images/oreo.jpeg",
+          image: "https://fa74d61d848a20b729bb-0251b36b713060ab3e0e8321940e01ff.ssl.cf2.rackcdn.com/0044000032020_CF_version_type_large.jpeg",
           description: "Carry love in your heart and Oreo cookies everywhere else.",
           variants: [
             {
@@ -201,7 +114,7 @@ module.exports = {
           "item": "Bread",
           id: '72945601330',
           name: "Sara Lee Bread White",
-          image: "src/components/grid/images/bread_white.jpeg",
+          image: "https://1372d34c156f12457517-c8b49206fc42ea00d5fd50b8ec61d670.ssl.cf2.rackcdn.com/0072945601330_A1L1_ItemMaster_type_large.jpeg",
           variants: [
             {
             sku: '14',
@@ -229,7 +142,7 @@ module.exports = {
           id: '41330',
           name: "Gala Apples",
           description: "Sweet, Juicy, Crisp",
-          image: "src/components/grid/images/apple.jpeg",
+          image: "https://0bb8856ba8259ec33e3d-a40599a114f3a4c6d0979c3ffe0b2bf5.ssl.cf2.rackcdn.com/0000000041330_CL_hyvee_default_large.jpeg",
           variants: [
             {
             sku: '15',

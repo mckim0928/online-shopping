@@ -19,7 +19,8 @@ export default class FluxGrid extends React.Component {
       name: item.name,
       type: current.type,
       price: current.price,
-      image: current.image
+      image: current.image,
+      nuVal: current.nuVal,
     }
 
     FluxCartActions.addToCart(sku, update);
