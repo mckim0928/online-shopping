@@ -5,7 +5,7 @@ import './FluxGrid.css'
 
 export default class FluxGrid extends React.Component {
 
-  constructor() {
+  constructor(props) {
     super();
     this.addToCart = this.addToCart.bind(this);
   }
@@ -38,21 +38,23 @@ export default class FluxGrid extends React.Component {
         <Row className="is-flex">
         {
           products.map((item,index) => {
-            return(
-              <Col className="grid-column" xs={3} md={2} key={index}>
-                <div className="grid-item">
-                  <span>
-                    <img src={item.image} alt="to be replaced" height="50" width="35"/>
-                  </span>
-                  <h4 className="name">{item.name}</h4>
-                  <p className="price">Price: ${item.variants[0].price}</p>
-                  <p className="price">NuVal: {item.variants[0].nuVal}</p>
-                  <button className="grid-button" type="button" onClick={() => {this.addToCart(index)}}>
-                    Add to Cart
-                  </button>
-                </div>
-              </Col>
-            );
+            if (this.props.category == item.maincategory) {
+              return(
+                <Col className="grid-column" xs={3} md={2} key={index}>
+                  <div className="grid-item">
+                    <span>
+                      <img src={item.image} alt="to be replaced" height="50" width="35"/>
+                    </span>
+                    <h4 className="name">{item.name}</h4>
+                    <p className="price">Price: ${item.variants[0].price}</p>
+                    <p className="price">NuVal: {item.variants[0].nuVal}</p>
+                    <button className="grid-button" type="button" onClick={() => {this.addToCart(index)}}>
+                      Add to Cart
+                    </button>
+                  </div>
+                </Col>
+              );
+            }
           })
         }
         </Row>

@@ -43,8 +43,8 @@ module.exports = {
             price: 1.69,
             inventory: 15
             }
-          ]
-          // "maincategory": "Beverages",
+          ],
+          "maincategory": "Beverages"
           // "brand": "Coca-Cola",
           // "subcategory1": "Soft Drinks",
           // "subcategory2": "Carbonated Soft Drinks",
@@ -69,8 +69,8 @@ module.exports = {
       price: 1.69,
       inventory: 15
       }
-    ]
-    // "maincategory": "Fresh",
+    ],
+    "maincategory": "Fresh"
     // "subcategory1": "Produce",
     // "subcategory2": "Packaged Produce --> Bagged Salad Mixes",
     // "price": "2/$7.00",
@@ -95,9 +95,9 @@ module.exports = {
             price: 1.69,
             inventory: 15
             }
-          ]
+          ],
           // "item": "Oreos",
-          // "maincategory": "Pantry",
+          "maincategory": "Pantry"
           // "brand": "Nabisco",
           // "subcategory1": "Snack Foods",
           // "subcategory2": "Cookies",
@@ -122,9 +122,9 @@ module.exports = {
             price: 1.69,
             inventory: 15
             }
-          ]
+          ],
           // description: "Bread is low fat, cholesterol free food. 0 grams of trans fat per serving. Per 2 slice serving: 150 calories. 0.5g sat fat 3% DV. 230mg sodium 10% DV. 3g sugars. A bread that truly deserves all the accolades. It's the original Sara Lee white, a bread so faithful to tradition that folks all over can't really have a sandwich without it. The flavor and texture say it all, and isn't that what enjoying bread is all about?",
-          // "maincategory": "Pantry",
+          "maincategory": "Pantry"
           // "brand": "Sara Lee",
           // "subcategory1": "Bread & Cakes",
           // "subcategory2": "Bread",
@@ -150,8 +150,8 @@ module.exports = {
             price: 1.69,
             inventory: 15
             }
-          ]
-          // "maincategory": "Fresh",
+          ],
+          "maincategory": "Fresh"
           // "brand": "NA",
           // "subcategory1": "Produce",
           // "subcategory2": "Fresh Fruit",
@@ -179,7 +179,7 @@ module.exports = {
             inventory: 15
             }
           ],
-          "maincategory": "Fresh",
+          "maincategory": "Fresh"
           // "brand": "Central",
           // "subcategory1": "Dairy, Cheese & Eggs",
           // "subcategory2": "Milk & Cream ---> Cows Milk",
@@ -206,7 +206,7 @@ module.exports = {
             inventory: 15
             }
           ],
-          "maincategory": "Pantry",
+          "maincategory": "Pantry"
           // "brand": "Pepperidge Farm",
           // "subcategory1": "Snack Foods",
           // "subcategory2": "Crackers",

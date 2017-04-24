@@ -21,7 +21,7 @@ function getCartState() {
 }
 
 export default class FluxCartApp extends React.Component {
-  constructor() {
+  constructor(props) {
     super();
     this.state = getCartState();
     this._onChange = this._onChange.bind(this);
@@ -55,7 +55,7 @@ export default class FluxCartApp extends React.Component {
         <FluxGrid
           products={products}
           cartItems={cartItems}
-          selected={selectedGrid}/>
+          category={this.props.category}/>
       </div>
     );
   }

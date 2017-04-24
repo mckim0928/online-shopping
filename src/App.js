@@ -8,10 +8,20 @@ import banner_1 from "../images/sale_banners/sale_banner_1.png";
 import banner_2 from "../images/sale_banners/sale_banner_2.png";
 
 class App extends Component {
+  constructor() {
+   super();
+   this.state = {
+     category: "all"
+   };
 
-  handleSelect(eventKey) {
+   this._handleSelect = this._handleSelect.bind(this);
+  }
+
+  _handleSelect(eventKey) {
     event.preventDefault();
-    alert(`selected ${eventKey}`);
+    this.setState({
+      category: eventKey
+    });
   }
 
   render() {
@@ -23,12 +33,16 @@ class App extends Component {
             </div>
           </div>
           <div id="navigation">
-            <Nav bsStyle="pills">
+            <Nav bsStyle="pills" onSelect={this._handleSelect}>
               <NavDropdown eventKey="3" title="Browse by Category" id="nav-dropdown-within-tab">
-                 <MenuItem eventKey="3.1">Frozen</MenuItem>
-                 <MenuItem eventKey="3.2">Fresh</MenuItem>
-                 <MenuItem eventKey="3.3">Bakery</MenuItem>
-                 <MenuItem eventKey="3.3">Pantry</MenuItem>
+                <MenuItem eventKey="Beverages">Beverages</MenuItem>
+                 <MenuItem eventKey="Frozen">Frozen</MenuItem>
+                 <MenuItem eventKey="Produce">Produce</MenuItem>
+                 <MenuItem eventKey="Snack Foods">Snack Foods</MenuItem>
+                 <MenuItem eventKey="Breakfast Foods">Breakfast Foods</MenuItem>
+                 <MenuItem eventKey="Fresh">Fresh</MenuItem>
+                 <MenuItem eventKey="Bakery">Bakery</MenuItem>
+                 <MenuItem eventKey="Pantry">Pantry</MenuItem>
                </NavDropdown>
              </Nav>
            </div>
@@ -38,7 +52,7 @@ class App extends Component {
               alt="img not available"/>
             <img className="ad" src={banner_2}/>
           </div>
-          <FluxCartApp/>
+          <FluxCartApp category={this.state.category}/>
         </div>
     );
   }
