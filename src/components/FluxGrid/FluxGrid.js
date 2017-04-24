@@ -41,7 +41,7 @@ export default class FluxGrid extends React.Component {
               <Col className="grid-column" xs={3} md={2} key={index}>
                 <div className="grid-item">
                   <span>
-                    <img src={item.image} alt="to be replaced" height="42" width="42"/>
+                    <img src={item.image} alt="to be replaced" height="50" width="35"/>
                   </span>
                   <h4 className="name">{item.name}</h4>
                   <p className="price">Price: ${item.variants[0].price}</p>

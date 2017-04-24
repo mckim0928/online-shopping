@@ -15,6 +15,11 @@ html, body {
     margin-top: 15px;
 }
 
+#ads {
+	padding-top: 20px;
+	text-align: center;
+}
+
 .ad {
 	width: 20%;
 }
