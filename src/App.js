@@ -35,6 +35,7 @@ class App extends Component {
           <div id="navigation">
             <Nav bsStyle="pills" onSelect={this._handleSelect}>
               <NavDropdown eventKey="3" title="Browse by Category" id="nav-dropdown-within-tab">
+                <MenuItem eventKey="all">All Items</MenuItem>
                 <MenuItem eventKey="Beverages">Beverages</MenuItem>
                  <MenuItem eventKey="Frozen">Frozen</MenuItem>
                  <MenuItem eventKey="Produce">Produce</MenuItem>

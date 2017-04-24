@@ -38,9 +38,11 @@ export default class FluxGrid extends React.Component {
         <Row className="is-flex">
         {
           products.map((item,index) => {
-            if (this.props.category == item.maincategory) {
+            if (this.props.category == item.maincategory ||
+              this.props.category == "all") {
+
               return(
-                <Col className="grid-column" xs={3} md={2} key={index}>
+                <Col className="grid-column" xs={3} md={2}>
                   <div className="grid-item">
                     <span>
                       <img src={item.image} alt="to be replaced" height="50" width="35"/>
