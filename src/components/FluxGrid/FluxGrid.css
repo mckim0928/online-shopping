@@ -1,3 +1,7 @@
+.grid-row {
+  width: 100%;
+}
+
 .flux-grid {
   display: flex;
   align-content: center;

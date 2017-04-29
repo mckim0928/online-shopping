@@ -34,8 +34,8 @@ export default class FluxGrid extends React.Component {
   render() {
     const { products } = this.props;
     return(
-      <div className="flux-grid">
-        <Row className="is-flex">
+      <div className="flux-grid container-fluid">
+        <Row className="is-flex grid-row">
         {
           products.map((item,index) => {
             if (this.props.category == item.maincategory ||
