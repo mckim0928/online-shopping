@@ -42,10 +42,10 @@ export default class FluxGrid extends React.Component {
               this.props.category == "all") {
 
               return(
-                <Col className="grid-column" xs={3} md={2}>
+                <Col className="grid-column" xs={6} sm={4} md={3} lg={2}>
                   <div className="grid-item">
                     <span>
-                      <img src={item.image} alt="to be replaced" height="50" width="35"/>
+                      <img src={item.image} alt="to be replaced" height="50" />
                     </span>
                     <h4 className="name">{item.name}</h4>
                     <p className="price">Price: ${item.variants[0].price}</p>
