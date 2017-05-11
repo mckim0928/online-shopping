@@ -10,13 +10,13 @@ On top of the create-react-app boilerplate and the flux architecture, other core
 
 ### Components
 
-#### FluxCartApp
-#### FluxCart
-#### FluxGrid
-#### FluxProduct
+#### &nbsp; FluxCartApp
+#### &nbsp; FluxCart
+#### &nbsp; FluxGrid
+#### &nbsp; FluxProduct
 
 ### Stores
 
-#### CartStore
-#### GridStore
-#### ProductStore
+#### &nbsp; CartStore
+#### &nbsp; GridStore
+#### &nbsp; ProductStore
