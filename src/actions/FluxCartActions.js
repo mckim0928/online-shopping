@@ -2,7 +2,7 @@ import AppDispatcher from '../dispatcher/AppDispatcher';
 import FluxCartConstants from '../constants/FluxCartConstants';
 
 var FluxCartActions = {
-
+  //method to receive the product and pass to the stores
   receiveProduct(data) {
     AppDispatcher.handleAction({
       actionType: FluxCartConstants.RECEIVE_DATA,
