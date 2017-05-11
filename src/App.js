@@ -38,6 +38,7 @@ class App extends Component {
                 <MenuItem eventKey="all">All Items</MenuItem>
                  <MenuItem eventKey="Fresh">Fresh</MenuItem>
                  <MenuItem eventKey="Pantry">Pantry</MenuItem>
+                 <MenuItem eventKey="Beverages">Beverages</MenuItem>
                </NavDropdown>
              </Nav>
            </div>

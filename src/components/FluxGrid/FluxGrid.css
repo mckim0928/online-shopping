@@ -1,19 +1,25 @@
+.grid-row {
+  width: 100%;
+}
+
 .flux-grid {
   display: flex;
   align-content: center;
 }
 .grid-column {
   display: flex;
+  text-align: center;
 }
-.grid-item img {
+.grid-colum img {
   margin-top: 10px;
 }
 
 .grid-button {
-  width: 100%;
-  text-size-adjust: 100%;
-  margin-right: 5%;
-  margin-left: 5%;
+  display: block;
+  width: 75%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: auto;
 }
 
 .grid-item {
@@ -25,9 +31,9 @@
   margin-bottom: 25px;
   margin-top: 25px;
 
+  width: 100%;
   text-align: center;
   min-height: 300px;
-  flex-direction: row;
 }
 
 .grid-button {
