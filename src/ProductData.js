@@ -1,5 +1,10 @@
 module.exports = {
-  // Load Mock Product Data Into localStorage
+  /*
+  This module loads mock product data Into localStorage.
+  The most important field is 'sku', because it acts as a "real ID" for each variants of
+  the items inside the cart. Although each item has corresponding ID fields, what
+  distinguishes variants that are actually getting added to the cart are these skus. 
+  */
   init: function() {
     localStorage.clear();
     localStorage.setItem('products', JSON.stringify([

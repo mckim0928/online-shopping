@@ -7,6 +7,13 @@ import FluxCart from '../FluxCart';
 import FluxGrid from '../FluxGrid';
 import './FluxCartApp.css'
 
+/*
+Function to retrieve all the states that need to be initalized in the FluxCartApp's
+constructor. The function calls three imported stores' methods appropriately to
+get immutable data that lives on the top, which is the FluxCartApp component,
+that will now flow down to sub-components.
+*/
+
 function getCartState() {
   return {
     products: GridStore.getProducts(),
@@ -20,7 +27,12 @@ function getCartState() {
   };
 }
 
+/* Top-level FluxCartApp component that renders FluxGrid and FluxCart */
 export default class FluxCartApp extends React.Component {
+  /*
+  The constructor initalizes its states with the above method and bind the
+  onChange method to the class that will trigger state changes.
+  */
   constructor(props) {
     super();
     this.state = getCartState();
