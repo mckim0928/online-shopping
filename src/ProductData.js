@@ -271,6 +271,22 @@ module.exports = {
           }
         ],
         "maincategory": "Fresh"
+      },
+       {
+        id:'34500151523',
+        name:"Baby Wipes",
+        image: "https://lh3.googleusercontent.com/tMYoYyB2ARqTtP_ZNc5mD3dg4BdzQwlpIw3qUKAQeNsYKgi1WbLHNpMmQHxeIp8mgnQnQGw=s85",
+        description: "Bring out the real, natural flavor of your foods.The fresh sweet cream in Land'O Lakes Unsalted Butter comes from the farm families of Land'O'Lakes.Only Land O'Lakes butter has the FlavorProtect Wrapper to keep other flavors out and the fresh taste you love in.",
+        variants: [
+          {
+          sku: '21',
+          type: '4 lb',
+          nuVal: 1,
+          price: 2.5,
+          inventory: 15
+          }
+        ],
+        "maincategory": "Fresh"
       }
     ]));
   }
